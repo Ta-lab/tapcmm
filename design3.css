@@ -1,0 +1,9 @@
+body{
+		font-family:OpenSans;
+		background-image: url("img/6.jpg");
+	}
+label{
+	font-family: monospace;
+	color:white;
+	font-size:150%;
+}

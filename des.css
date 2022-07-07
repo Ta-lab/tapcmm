@@ -1,0 +1,71 @@
+body
+{
+	background-image: url("img/6.jpg");
+}
+.form-control{
+	display:inline;
+	width:200px;
+}
+label {
+    color: #fcf8e3;
+}
+.form-group {
+    margin-right: -15px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #33abb7;
+	margin-left: 50%;
+}
+.middle{
+	text-align:center;
+}
+.middle1{
+	margin-left:25%;
+}
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+	margin-left: 30%;
+}
+a:hover{
+   color:yellow;
+   font-size:15px;
+}
+input[type=submit]
+{
+	left:80%;
+	position: relative;
+	text-align: center;
+	border: 5% solid #1ECD97;
+}
+th,td{
+color: #fcf8e3;
+text-align:center;
+border: 1px solid #CCC;
+}
+table{
+	border=1 frame=void rules=rows;
+	width: 80%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.find1{
+position: absolute;
+left: 30%;
+}
+.find2{
+position: absolute;
+left: 60%;
+}
+.find{
+position: absolute;
+}
+.s{
+	width: 100%;
+	float:right;
+	background:transparent;
+	font-size:140%;
+	text-align:center;
+}

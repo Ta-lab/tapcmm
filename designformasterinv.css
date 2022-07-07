@@ -1,0 +1,72 @@
+.find1{
+position: absolute;
+left: 30%;
+}
+.find2{
+position: absolute;
+left: 70%;
+}
+.find{
+position: absolute;
+}
+body{
+		font-family:OpenSans;
+		background-image: url("img/6.jpg");
+	}
+th,td{
+		font-size : <size>px/em/cm;
+		text-align:center;
+		border: 1px solid #CCC;
+		color : white;
+}
+
+table{
+	border=1 frame=void rules=rows;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+label{
+	font-family: monospace;
+	color:white;
+	font-size:100%;
+}
+@font-face{
+			font-family:OpenSans;
+			src: url('OpenSans.woff2') format('woff2');
+	}
+input[type=submit]
+{	
+	top :50px;
+	left:80%;
+	position: relative;
+	text-align: center;
+	border: 25% solid #1ECD97;
+}
+input[type=text],input[type=number], input[type=password],Select,input[type=date]{
+	color: #626292;
+	padding: .5%;
+	vertical-align: text-indent;
+	width: 65%;
+	float:center-left;
+	font-size:100%;
+}
+.h5
+{
+	text-align:left;
+}
+.h5l
+{
+	padding-left:1%;
+	color:#33ff99;
+}
+.h5ll
+{
+	padding-left:3.4%;
+	color:#33ff99;
+}
+.h5lll
+{
+	padding-left:4%;
+	color:#33ff99;
+}

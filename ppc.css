@@ -1,0 +1,43 @@
+
+body{
+		font-family:OpenSans;
+		background-image: url("img/6.jpg");
+	}
+th,td{
+		font-size : <size>px/em/cm;
+		text-align:center;
+		border: 1px solid #CCC;
+		color : white;
+		max-width : 100px;
+}
+
+table{
+	border :1 frame=void rules=rows;
+	width: 120%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	overflow-y: auto;
+}
+table tr:first-child {
+	background: blue
+}
+@font-face{
+			font-family:OpenSans;
+			src: url('OpenSans.woff2') format('woff2');
+	}
+input[type=number],input[type=date]{
+	color: #626292;
+	vertical-align: text-indent;
+	width: 100%;
+	color : yellow;
+	height: 100%;
+	border : none;
+	text-align : center;
+	font-size:100%;
+	background-color : transparent;
+}
+label{
+	font-family: monospace;
+	color:white;
+	font-size:100%;
+}

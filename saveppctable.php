@@ -1,0 +1,19 @@
+<?php
+$pnum=$_GET['pnum'];
+$type=$_GET['type'];
+$demand=$_GET['demand'];
+$vmifg=$_GET['vmifg'];
+$vmisf=$_GET['vmisf'];
+$order=$_GET['order'];
+$stkc=$_GET['stkc'];
+$stkm=$_GET['stkm'];
+$week=$_GET['week'];
+$cncp=$_GET['cncp'];
+$manp=$_GET['manp'];
+$pri=$_GET['pri'];
+$ppccnc=$_GET['ppccnc'];
+$ppcman=$_GET['ppcman'];
+$revised=$_GET['revised'];
+$con=mysqli_connect('localhost','root','Tamil','mypcm');
+mysqli_query($con,"INSERT INTO `ppcplandata` (`pnum`, `type`, `demand`, `vmi_fg`, `vmi_sf`, `orderqty`, `stock_cnc`, `stock_manual`, `week`, `cncplan`, `manualplan`, `priority`, `ppc_cncplan`, `ppc_manualplan`, `reviseddate`) VALUES ('$pnum', '$type', '$demand', '$vmifg', '$vmisf', '$order', '$stkc', '$stkm', '$week', '$cncp', '$manp', '$pri', '$ppccnc', '$ppcman', '$revised')");
+?>

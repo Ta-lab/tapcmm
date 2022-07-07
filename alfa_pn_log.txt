@@ -1,0 +1,16 @@
+
+			<?php
+				if(isset($_GET['partnumber']))
+				{
+					$pno=$_GET['partnumber'];
+				
+					$query = "SELECT DISTINCT pn FROM dcmaster WHERE pn='$pno'";
+					$result = $con->query($query);
+					$row = mysqli_fetch_array($result);
+				
+					if($row['pn']!=$pno)
+					{
+						header("location: inputlink.php?msg=32");
+					}
+				}
+			?>
